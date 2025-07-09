@@ -114,6 +114,7 @@ nav li a{
 /* main styles */
 main section{
     margin-top: 130px;
+    margin-bottom: 130px;
 }
 
 main{
@@ -149,4 +150,72 @@ main{
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+}
+
+/* resume section styles */
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.experience-description{
+    color: #757575;
+}
+
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+
+}
+
+.cv-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+/* footer styles */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-coloumn{
+    width: 50%;
+}
+
+footer input[type='text'] {
+    height: 64px;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+footer input[type='email'] {
+    height: 64px;
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 24px;
+}
+
+footer textarea{
+    padding: 10px;
+    border: none;
+    display: block;
+    width: 102%;
+    height: 100px;
+    font-size: 20px;
+    margin-bottom: 24px;
 }
